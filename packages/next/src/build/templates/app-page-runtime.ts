@@ -944,7 +944,6 @@ export function createAppPageEntrypoint({
             isDraftMode,
             botType,
             isOnDemandRevalidate,
-            isPossibleServerAction,
             assetPrefix: routeModule.getAssetPrefixForRender(
               routerServerContext,
               nextConfig.assetPrefix
